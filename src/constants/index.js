@@ -20,9 +20,13 @@ import {
   aia,
   hitachi,
   opencrm,
-  jobit,
-  tripguide,
   threejs,
+  hackerrank,
+  hackerrank_sql,
+  microsoft,
+  azure_devops,
+  azure_developer,
+  azure_solution_architect,
 } from "../assets";
 
 export const navLinks = [
@@ -169,30 +173,34 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const certifications = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    title: "Azure Developer Associate",
+    organization: "Microsoft",
+    icon: microsoft,
+    image: azure_developer,
+    link: "https://learn.microsoft.com/en-us/users/98174984/credentials/certification/azure-developer",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    title: "Azure DevOps Engineer Expert",
+    organization: "Hacker Rank",
+    icon: microsoft,
+    image: azure_devops,
+    link: "https://learn.microsoft.com/en-us/users/98174984/credentials/certification/devops-engineer",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "Azure Solution Architect",
+    organization: "Microsoft",
+    icon: microsoft,
+    image: azure_solution_architect,
+    link: "https://learn.microsoft.com/en-us/users/98174984/credentials/certification/azure-solutions-architect",
+  },
+  {
+    title: "SQL (Advanced)",
+    organization: "Hacker Rank",
+    icon: hackerrank,
+    image: hackerrank_sql,
+    link: "https://www.hackerrank.com/certificates/3768ce0a7973",
   },
 ];
 
@@ -219,47 +227,47 @@ const projects = [
     source_code_link: "https://github.com/kevinleungdev/OpenCRM",
   },
   {
-    name: "Job IT",
+    name: "Open CRM",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A complete CRM (Customer Relationship Management) example project. It provides a set of tools and features to manage customer data, track interactions, and streamline business processes.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "postgresql",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "spring boot",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: opencrm,
+    source_code_link: "https://github.com/kevinleungdev/OpenCRM",
   },
   {
-    name: "Trip Guide",
+    name: "Open CRM",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A complete CRM (Customer Relationship Management) example project. It provides a set of tools and features to manage customer data, track interactions, and streamline business processes.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "postgresql",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "spring boot",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: opencrm,
+    source_code_link: "https://github.com/kevinleungdev/OpenCRM",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, certifications, projects };

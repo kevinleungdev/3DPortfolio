@@ -27,8 +27,14 @@ import scb from "./company/scb.png";
 import aia from "./company/aia.png";
 
 import opencrm from "./opencrm.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
+import hackerrank from "./hackerrank.png";
+import microsoft from "./microsoft.png";
+
+import hackerrank_sql from "./certification/hackerrank_sql.png";
+import azure_devops from "./certification/azure_devops_expert.png";
+import azure_solution_architect from "./certification/azure_solution_architect.png";
+import azure_developer from "./certification/azure_developer_associate.png";
 
 export {
   logo,
@@ -57,6 +63,10 @@ export {
   scb,
   aia,
   opencrm,
-  jobit,
-  tripguide,
+  hackerrank,
+  microsoft,
+  hackerrank_sql,
+  azure_devops,
+  azure_solution_architect,
+  azure_developer,
 };
