@@ -13,11 +13,12 @@ const CertificationCard = ({
   icon,
   image,
   link,
+  tags,
 }) => {
   return (
     <motion.div
       variants={fadeIn("", "spring", index * 0.5, 0.75)}
-      className="bg-black-200 p-10 rounded-3xl xs:w-[480px] w-full"
+      className="bg-black-200 p-6 rounded-3xl xs:w-[480px] w-full"
     >
       <div className="relative w-full h-[230px]">
         <img
@@ -34,12 +35,21 @@ const CertificationCard = ({
             <p className="text-white font-medium text-[16px]">
               <span className="blue-text-gradient">@</span> {title}
             </p>
-            <p className="mt-1 text-secondary text-[14px]">{organization}</p>
+            <div className="mt-2 flex flex-wrap gap-2">
+              {tags.map((tag) => (
+                <p
+                  key={`cert_${tag.name}`}
+                  className={`text-secondary text-[14px] ${tag.color}`}
+                >
+                  {tag.name}
+                </p>
+              ))}
+            </div>
           </div>
           <img
             src={icon}
-            alt={`certification-${title}`}
-            className="w-10 h-10 rounded-full"
+            alt={organization}
+            className="w-10 h-10 rounded-sm ojbect-contain"
           />
         </div>
       </div>

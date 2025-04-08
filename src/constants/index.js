@@ -180,6 +180,20 @@ const certifications = [
     icon: microsoft,
     image: azure_developer,
     link: "https://learn.microsoft.com/en-us/users/98174984/credentials/certification/azure-developer",
+    tags: [
+      {
+        name: "Azure",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Cloud",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Development",
+        color: "pink-text-gradient",
+      },
+    ],
   },
   {
     title: "Azure DevOps Engineer Expert",
@@ -187,6 +201,20 @@ const certifications = [
     icon: microsoft,
     image: azure_devops,
     link: "https://learn.microsoft.com/en-us/users/98174984/credentials/certification/devops-engineer",
+    tags: [
+      {
+        name: "Azure",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Cloud",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Devops",
+        color: "pink-text-gradient",
+      },
+    ],
   },
   {
     title: "Azure Solution Architect",
@@ -194,13 +222,37 @@ const certifications = [
     icon: microsoft,
     image: azure_solution_architect,
     link: "https://learn.microsoft.com/en-us/users/98174984/credentials/certification/azure-solutions-architect",
+    tags: [
+      {
+        name: "Azure",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Cloud",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Architect",
+        color: "pink-text-gradient",
+      },
+    ],
   },
   {
-    title: "SQL (Advanced)",
+    title: "HanckerRank SQL (Advanced)",
     organization: "Hacker Rank",
     icon: hackerrank,
     image: hackerrank_sql,
     link: "https://www.hackerrank.com/certificates/3768ce0a7973",
+    tags: [
+      {
+        name: "Database",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "green-text-gradient",
+      },
+    ],
   },
 ];
 
@@ -211,15 +263,15 @@ const projects = [
       "A complete CRM (Customer Relationship Management) example project. It provides a set of tools and features to manage customer data, track interactions, and streamline business processes.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "postgresql",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "spring boot",
+        name: "SpringBoot",
         color: "pink-text-gradient",
       },
     ],
@@ -232,15 +284,15 @@ const projects = [
       "A complete CRM (Customer Relationship Management) example project. It provides a set of tools and features to manage customer data, track interactions, and streamline business processes.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "postgresql",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "spring boot",
+        name: "SpringBoot",
         color: "pink-text-gradient",
       },
     ],
@@ -253,15 +305,15 @@ const projects = [
       "A complete CRM (Customer Relationship Management) example project. It provides a set of tools and features to manage customer data, track interactions, and streamline business processes.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "postgresql",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "spring boot",
+        name: "SpringBoot",
         color: "pink-text-gradient",
       },
     ],
